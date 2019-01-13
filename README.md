@@ -1,6 +1,6 @@
 # algorithm
 
-A new Flutter project.
+A Flutter project used to introduce Algorithm and Data stucture in Dart.
 
 ## Getting Started
 
