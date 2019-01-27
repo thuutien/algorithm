@@ -26,8 +26,8 @@ bool anagrams(String stringA, String stringB) {
 
 Map buildCharMap(String str) {
   var charMap = {};
-  final cleatStr = str.replaceAll(RegExp(r"\W\D"), "").toLowerCase();
-  for (var char in cleatStr.split("")) {
+  final cleartStr = str.replaceAll(RegExp(r"\W\D"), "").toLowerCase();
+  for (var char in cleartStr.split("")) {
     charMap[char] == null ? charMap[char] = 1 : charMap[char]++;
   }
   return charMap;
